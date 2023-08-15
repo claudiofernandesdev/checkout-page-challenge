@@ -28,7 +28,7 @@
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="./assets/custom.css" />
+		<link rel="stylesheet" href="./assets/css/custom.css" />
 
 		<title>Checkout Page - Devchallenges</title>
 	</head>
@@ -108,185 +108,193 @@
 				</div>
 
 				<div class="col-12 col-md-6">
-					<form class="needs-validation" novalidate>
-						<h4 class="f-size2 f-weight grey-color1">Contact information</h4>
-						<div class="col-12 mb-3">
-							<label for="email" class="f-size4 grey-color2">Email</label>
-							<div class="input-group has-validation rounded">
-								<span
-									class="input-group-text grey-color3 f-size2 bg-grey-color4"
-									id="addon-wrapping"
-									><i class="bi bi-envelope-fill"></i
-								></span>
-								<input
-									type="email"
-									id="email"
-									class="form-control custom-input f-size3"
-									placeholder="Enter your email..."
-									required />
-                                    <div class="invalid-feedback">Please inform a valid email.</div>
-							</div>
-                        </div>
+                    <form class="needs-validation" novalidate>
+                            <h4 class="f-size2 f-weight grey-color1">Contact information</h4>
+                            <div class="col-12 mb-3">
+                                <label for="email" class="f-size4 grey-color2">Email</label>
+                                <div class="input-group has-validation rounded">
+                                    <span
+                                        class="input-group-text grey-color3 f-size2 bg-grey-color4"
+                                        id="addon-wrapping"
+                                        ><i class="bi bi-envelope-fill"></i
+                                    ></span>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        class="form-control custom-input f-size3"
+                                        placeholder="Enter your email..."
+                                        required />
+                                        <div class="invalid-feedback">Please inform a valid email.</div>
+                                </div>
+                            </div>
 
-						<div class="col-12">
-							<label for="phone" class="f-size4 grey-color2">Phone</label>
-							<div class="input-group has-validation rounded">
-								<span
-									class="input-group-text grey-color3 f-size2 bg-grey-color4"
-									id="addon-wrapping">
-									<i class="bi bi-telephone-fill"></i>
-								</span>
-								<input
-									type="tel"
-									id="phone"
-									class="form-control custom-input f-size3 rounded-3"
-									placeholder="Enter your phone..."
-									required />
-								<div class="invalid-feedback">Please inform a valid phone.</div>
-							</div>
-						</div>
+                            <div class="col-12">
+                                <label for="phone" class="f-size4 grey-color2">Phone</label>
+                                <div class="input-group has-validation rounded">
+                                    <span
+                                        class="input-group-text grey-color3 f-size2 bg-grey-color4"
+                                        id="addon-wrapping">
+                                        <i class="bi bi-telephone-fill"></i>
+                                    </span>
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        class="form-control custom-input f-size3 rounded-3"
+                                        placeholder="Enter your phone..."
+                                        required />
+                                    <div class="invalid-feedback">Please inform a valid phone.</div>
+                                </div>
+                            </div>
 
-						<h4 class="f-size2 f-weight grey-color1 mt-5">Shipping address</h4>
-						<div class="col-12 mb-3">
-							<label for="fullname" class="f-size4 grey-color2"
-								>Full name</label
-							>
-							<div class="input-group has-validation rounded">
-								<span
-									class="input-group-text grey-color3 f-size2 bg-grey-color4"
-									id="addon-wrapping">
-									<i class="bi bi-person-circle"></i>
-								</span>
-								<input
-									type="text"
-									id="fullname"
-									class="form-control custom-input f-size3"
-									placeholder="Your full name.."
-									required />
-								<div class="invalid-feedback">
-									Please inform your full name.
-								</div>
-							</div>
-						</div>
+                            <h4 class="f-size2 f-weight grey-color1 mt-5">Shipping address</h4>
+                            <div class="col-12 mb-3">
+                                <label for="fullname" class="f-size4 grey-color2"
+                                    >Full name</label
+                                >
+                                <div class="input-group has-validation rounded">
+                                    <span
+                                        class="input-group-text grey-color3 f-size2 bg-grey-color4"
+                                        id="addon-wrapping">
+                                        <i class="bi bi-person-circle"></i>
+                                    </span>
+                                    <input
+                                        type="text"
+                                        id="fullname"
+                                        class="form-control custom-input f-size3"
+                                        placeholder="Your full name.."
+                                        required />
+                                    <div class="invalid-feedback">
+                                        Please inform your full name.
+                                    </div>
+                                </div>
+                            </div>
 
-						<div class="col-12 mb-3">
-							<label for="address" class="f-size4 grey-color2">Address</label>
-							<div class="input-group has-validation rounded">
-								<span
-									class="input-group-text grey-color3 f-size2 bg-grey-color4"
-									id="addon-wrapping">
-									<i class="bi bi-house-door-fill"></i>
-								</span>
-								<input
-									type="text"
-									id="address"
-									class="form-control custom-input f-size3"
-									placeholder="Your address..."
-									required />
-								<div class="invalid-feedback">
-									Please inform a valid address.
-								</div>
-							</div>
-						</div>
+                            <div class="col-12 mb-3">
+                                <label for="address" class="f-size4 grey-color2">Address</label>
+                                <div class="input-group has-validation rounded">
+                                    <span
+                                        class="input-group-text grey-color3 f-size2 bg-grey-color4"
+                                        id="addon-wrapping">
+                                        <i class="bi bi-house-door-fill"></i>
+                                    </span>
+                                    <input
+                                        type="text"
+                                        id="address"
+                                        class="form-control custom-input f-size3"
+                                        placeholder="Your address..."
+                                        required />
+                                    <div class="invalid-feedback">
+                                        Please inform a valid address.
+                                    </div>
+                                </div>
+                            </div>
 
-						<div class="col-12 mb-3">
-							<label for="city" class="f-size4 grey-color2">City</label>
-							<div class="input-group has-validation rounded">
-								<span
-									class="input-group-text grey-color3 f-size2 bg-grey-color4"
-									id="addon-wrapping">
-									<i class="bi bi-buildings-fill"></i>
-								</span>
-								<input
-									type="text"
-									id="city"
-									class="form-control custom-input"
-									placeholder="Your city..."
-									required />
-								<div class="invalid-feedback">
-									Please inform your city name.
-								</div>
-							</div>
-						</div>
+                            <div class="col-12 mb-3">
+                                <label for="city" class="f-size4 grey-color2">City</label>
+                                <div class="input-group has-validation rounded">
+                                    <span
+                                        class="input-group-text grey-color3 f-size2 bg-grey-color4"
+                                        id="addon-wrapping">
+                                        <i class="bi bi-buildings-fill"></i>
+                                    </span>
+                                    <input
+                                        type="text"
+                                        id="city"
+                                        class="form-control custom-input"
+                                        placeholder="Your city..."
+                                        required />
+                                    <div class="invalid-feedback">
+                                        Please inform your city name.
+                                    </div>
+                                </div>
+                            </div>
 
-						<div class="row mb-5">
-							<div class="col-6">
-								<label for="country" class="f-size4 grey-color2">Country</label>
-								<div class="input-group mb-3 has-validation rounded">
-									<span
-										class="input-group-text grey-color3 f-size2 bg-grey-color4"
-										id="addon-wrapping">
-										<i class="bi bi-globe-americas"></i>
-									</span>
-									<select
-										class="form-select rounded-3 grey-color2 custom-input f-size3
-										id="country"
-										required>
-										<option
-											class="grey-color3 f-size3"
-											selected
-											disabled
-											value="">
-											Your country...
-										</option>
-										<option class="grey-color2 f-size3" value="1">
-											United States
-										</option>
-										<option class="grey-color2 f-size3" value="2">
-											Canada
-										</option>
-										<option class="grey-color2 f-size3" value="3">
-											Mexico
-										</option>
-										<option class="grey-color2 f-size3" value="4">
-											Brasil
-										</option>
-										<option class="grey-color2 f-size3" value="5">
-                                            Chile
-                                        </option>
-									</select>
-									<div class="invalid-feedback">
-										Please select a valid country.
-									</div>
-								</div>
-							</div>
+                            <div class="row mb-5">
+                                <div class="col-6">
+                                    <label for="country" class="f-size4 grey-color2">Country</label>
+                                    <div class="input-group mb-3 has-validation rounded">
+                                        <span
+                                            class="input-group-text grey-color3 f-size2 bg-grey-color4"
+                                            id="addon-wrapping">
+                                            <i class="bi bi-globe-americas"></i>
+                                        </span>
+                                        <select
+                                            class="form-select rounded-3 grey-color2 custom-input f-size3
+                                            id="country"
+                                            required>
+                                            <option
+                                                class="grey-color3 f-size3"
+                                                selected
+                                                disabled
+                                                value="">
+                                                Your country...
+                                            </option>
+                                            <option class="grey-color2 f-size3" value="1">
+                                                United States
+                                            </option>
+                                            <option class="grey-color2 f-size3" value="2">
+                                                Canada
+                                            </option>
+                                            <option class="grey-color2 f-size3" value="3">
+                                                Mexico
+                                            </option>
+                                            <option class="grey-color2 f-size3" value="4">
+                                                Brasil
+                                            </option>
+                                            <option class="grey-color2 f-size3" value="5">
+                                                Chile
+                                            </option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please select a valid country.
+                                        </div>
+                                    </div>
+                                </div>
 
-							<div class="col-6">
-								<label for="zipcode" class="f-size4 grey-color2"
-									>Postal code</label
-								>
-								<div class="input-group has-validation rounded">
-									<span
-										class="input-group-text grey-color3 f-size2 bg-grey-color4"
-										id="addon-wrapping">
-										<i class="bi bi-pin-map-fill"></i>
-									</span>
-									<input
-										type="text"
-										id="zipcode"
-										class="form-control custom-input f-size3 rounded-3"
-										placeholder="Your postal code..."
-										required />
-									<div class="invalid-feedback">
-										Please provide a valid postal code.
-									</div>
-								</div>
-							</div>
-						</div>
+                                <div class="col-6">
+                                    <label for="zipcode" class="f-size4 grey-color2"
+                                        >Postal code</label
+                                    >
+                                    <div class="input-group has-validation rounded">
+                                        <span
+                                            class="input-group-text grey-color3 f-size2 bg-grey-color4"
+                                            id="addon-wrapping">
+                                            <i class="bi bi-pin-map-fill"></i>
+                                        </span>
+                                        <input
+                                            type="text"
+                                            id="zipcode"
+                                            class="form-control custom-input f-size3 rounded-3"
+                                            placeholder="Your postal code..."
+                                            required />
+                                        <div class="invalid-feedback">
+                                            Please provide a valid postal code.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<div class="check-item">
-							<input type="checkbox" name="check" id="check" class="checkbox" />
-							<label for="check" class="f-size4 grey-color3"
-								>Save this information for next time</label
-							>
-						</div>
-						<div class="float-end">
-							<input type="submit" value="Continue" class="btn btn-custom" />
-						</div>
-					</form>
-				</div>
+                            <div class="check-item">
+                                <input type="checkbox" name="check" id="check" class="checkbox" />
+                                <label for="check" class="f-size4 grey-color3"
+                                    >Save this information for next time</label
+                                >
+                            </div>
+                            <div class="float-end">
+                                <input type="submit" value="Continue" class="btn btn-custom" onclick="openModal()" />
+                            </div>
+                    </form>
+                </div>
 			</div>
 		</section>
+
+        <dialog>
+            <img src="./images/check-circle.svg" alt="green check circle">
+            <h2 class="f-size1 grey-color1 f-weight ">Success!!!</h2>
+            <p class="f-size3 grey-color2" >Your details are been successuly submitted. Thanks! </p>
+            <button class="close-modal">Ok</button>
+        </dialog>
+
         <footer>
 			<p>
 				created by
@@ -310,6 +318,6 @@
 			integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
 			crossorigin="anonymous"></script>
 
-		<script src="./assets/main.js"></script>
+		<script src="./assets/js/main.js"></script>
 	</body>
 </html>
